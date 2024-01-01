@@ -7,7 +7,17 @@ Firespitter::Firespitter() {
 	skillName = "Stealth";
 	skillDescription = "Sneak through the shadows.";
 	skillDamage = 10;
+	isDead = false;
 }
+
+void Firespitter::TakeDamage(int hitPoints) {
+	health -= hitPoints;
+	if (health <= 0) {
+		isDead = true;
+	}
+}
+
+// ---------------------------------
 
 DungeonDweller::DungeonDweller() {
 	name = "DungeonDweller";
@@ -16,6 +26,14 @@ DungeonDweller::DungeonDweller() {
 	skillName = "Stealth";
 	skillDescription = "Sneak through the shadows.";
 	skillDamage = 10;
+	isDead = false;
+}
+
+void DungeonDweller::TakeDamage(int hitPoints) {
+	health -= hitPoints;
+	if (health <= 0) {
+		isDead = true;
+	}
 }
 
 Goblin::Goblin() {
@@ -25,6 +43,14 @@ Goblin::Goblin() {
 	skillName = "Stealth";
 	skillDescription = "Sneak through the shadows.";
 	skillDamage = 10;
+	isDead = false;
+}
+
+void Goblin::TakeDamage(int hitPoints) {
+	health -= hitPoints;
+	if (health <= 0) {
+		isDead = true;
+	}
 }
 
 HauntingSpirit::HauntingSpirit() {
@@ -34,6 +60,14 @@ HauntingSpirit::HauntingSpirit() {
 	skillName = "Stealth";
 	skillDescription = "Sneak through the shadows.";
 	skillDamage = 10;
+	isDead = false;
+}
+
+void HauntingSpirit::TakeDamage(int hitPoints) {
+	health -= hitPoints;
+	if (health <= 0) {
+		isDead = true;
+	}
 }
 
 Troll::Troll() {
@@ -43,6 +77,14 @@ Troll::Troll() {
 	skillName = "Stealth";
 	skillDescription = "Sneak through the shadows.";
 	skillDamage = 10;
+	isDead = false;
+}
+
+void Troll::TakeDamage(int hitPoints) {
+	health -= hitPoints;
+	if (health <= 0) {
+		isDead = true;
+	}
 }
 
 Skeleton::Skeleton() {
@@ -52,6 +94,14 @@ Skeleton::Skeleton() {
 	skillName = "Stealth";
 	skillDescription = "Sneak through the shadows.";
 	skillDamage = 10;
+	isDead = false;
+}
+
+void Skeleton::TakeDamage(int hitPoints) {
+	health -= hitPoints;
+	if (health <= 0) {
+		isDead = true;
+	}
 }
 
 UndeadWolf::UndeadWolf() {
@@ -61,4 +111,12 @@ UndeadWolf::UndeadWolf() {
 	skillName = "Stealth";
 	skillDescription = "Sneak through the shadows.";
 	skillDamage = 10;
+	isDead = false;
+}
+
+void UndeadWolf::TakeDamage(int hitPoints) {
+	health -= hitPoints;
+	if (health <= 0) {
+		isDead = true;
+	}
 }

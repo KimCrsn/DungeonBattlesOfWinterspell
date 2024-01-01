@@ -1,10 +1,12 @@
 #pragma once
+#include <string>
+
 class ICreature {
 private:
-	int name;
+	std::string name;
 
 public:
-	int GetName() {
+	std::string GetName(){
 		return name;
 	}
 

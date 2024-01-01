@@ -1,9 +1,101 @@
-﻿  ExploreDungeon.cpp
-  CharacterCreation.cpp
-G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\CharacterCreation.cpp(163,15): warning C4101: 'inputManager': unreferenced local variable
-  PlayerCharacter.cpp
+﻿  Battle.cpp
+  ExploreDungeon.cpp
+  DungeonRoom.cpp
+  DungeonBattlesOfWinterspellCpp.cpp
+  DungeonGenerator.cpp
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\DungeonGenerator.cpp(76,52): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\DungeonGenerator.cpp(82,52): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): error C2259: 'Firespitter': cannot instantiate abstract class
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\Enemies.h(3,7): message : see declaration of 'Firespitter'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): message : due to following members:
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): message : 'bool ICreature::IsPlayableCharacter(void) const': is abstract
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\ICreature.h(13,15): message : see declaration of 'ICreature::IsPlayableCharacter'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(2004,1): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
+          with
+          [
+              _Ty=Firespitter
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(2663): message : see reference to class template instantiation 'std::_Ref_count_obj2<Firespitter>' being compiled
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\DungeonGenerator.cpp(38,72): message : see reference to function template instantiation 'std::shared_ptr<Firespitter> std::make_shared<Firespitter,>(void)' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): error C2259: 'DungeonDweller': cannot instantiate abstract class
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\Enemies.h(29,7): message : see declaration of 'DungeonDweller'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): message : due to following members:
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): message : 'bool ICreature::IsPlayableCharacter(void) const': is abstract
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\ICreature.h(13,15): message : see declaration of 'ICreature::IsPlayableCharacter'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(2004,1): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
+          with
+          [
+              _Ty=DungeonDweller
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(2663): message : see reference to class template instantiation 'std::_Ref_count_obj2<DungeonDweller>' being compiled
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\DungeonGenerator.cpp(39,79): message : see reference to function template instantiation 'std::shared_ptr<DungeonDweller> std::make_shared<DungeonDweller,>(void)' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): error C2259: 'Goblin': cannot instantiate abstract class
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\Enemies.h(55,7): message : see declaration of 'Goblin'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): message : due to following members:
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): message : 'bool ICreature::IsPlayableCharacter(void) const': is abstract
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\ICreature.h(13,15): message : see declaration of 'ICreature::IsPlayableCharacter'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(2004,1): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
+          with
+          [
+              _Ty=Goblin
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(2663): message : see reference to class template instantiation 'std::_Ref_count_obj2<Goblin>' being compiled
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\DungeonGenerator.cpp(40,63): message : see reference to function template instantiation 'std::shared_ptr<Goblin> std::make_shared<Goblin,>(void)' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): error C2259: 'HauntingSpirit': cannot instantiate abstract class
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\Enemies.h(81,7): message : see declaration of 'HauntingSpirit'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): message : due to following members:
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): message : 'bool ICreature::IsPlayableCharacter(void) const': is abstract
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\ICreature.h(13,15): message : see declaration of 'ICreature::IsPlayableCharacter'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(2004,1): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
+          with
+          [
+              _Ty=HauntingSpirit
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(2663): message : see reference to class template instantiation 'std::_Ref_count_obj2<HauntingSpirit>' being compiled
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\DungeonGenerator.cpp(41,79): message : see reference to function template instantiation 'std::shared_ptr<HauntingSpirit> std::make_shared<HauntingSpirit,>(void)' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): error C2259: 'Troll': cannot instantiate abstract class
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\Enemies.h(107,7): message : see declaration of 'Troll'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): message : due to following members:
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): message : 'bool ICreature::IsPlayableCharacter(void) const': is abstract
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\ICreature.h(13,15): message : see declaration of 'ICreature::IsPlayableCharacter'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(2004,1): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
+          with
+          [
+              _Ty=Troll
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(2663): message : see reference to class template instantiation 'std::_Ref_count_obj2<Troll>' being compiled
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\DungeonGenerator.cpp(42,61): message : see reference to function template instantiation 'std::shared_ptr<Troll> std::make_shared<Troll,>(void)' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): error C2259: 'Skeleton': cannot instantiate abstract class
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\Enemies.h(133,7): message : see declaration of 'Skeleton'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): message : due to following members:
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): message : 'bool ICreature::IsPlayableCharacter(void) const': is abstract
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\ICreature.h(13,15): message : see declaration of 'ICreature::IsPlayableCharacter'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(2004,1): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
+          with
+          [
+              _Ty=Skeleton
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(2663): message : see reference to class template instantiation 'std::_Ref_count_obj2<Skeleton>' being compiled
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\DungeonGenerator.cpp(43,67): message : see reference to function template instantiation 'std::shared_ptr<Skeleton> std::make_shared<Skeleton,>(void)' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): error C2259: 'UndeadWolf': cannot instantiate abstract class
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\Enemies.h(159,7): message : see declaration of 'UndeadWolf'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): message : due to following members:
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(1979,9): message : 'bool ICreature::IsPlayableCharacter(void) const': is abstract
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\ICreature.h(13,15): message : see declaration of 'ICreature::IsPlayableCharacter'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(2004,1): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
+          with
+          [
+              _Ty=UndeadWolf
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\memory(2663): message : see reference to class template instantiation 'std::_Ref_count_obj2<UndeadWolf>' being compiled
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\DungeonGenerator.cpp(44,71): message : see reference to function template instantiation 'std::shared_ptr<UndeadWolf> std::make_shared<UndeadWolf,>(void)' being compiled
+  Enemies.cpp
+  Game.cpp
+  IEnemy.cpp
+  Map.cpp
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\Map.cpp(6,133): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\Map.cpp(17,60): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\Map.cpp(26,50): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  UI.cpp
   Generating Code...
-G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\CharacterCreation.cpp(255): warning C4715: 'CharacterCreation::AllocatePoints': not all control paths return a value
-G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\CharacterCreation.cpp(101): warning C4715: 'CharacterCreation::ChooseClass': not all control paths return a value
-G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\CharacterCreation.cpp(158): warning C4715: 'CharacterCreation::ChooseWeapon': not all control paths return a value
-  DungeonBattlesOfWinterspellCpp.vcxproj -> G:\repos\DungeonBattlesOfWinterspellCpp\x64\Debug\DungeonBattlesOfWinterspellCpp.exe
+G:\repos\DungeonBattlesOfWinterspellCpp\DungeonBattlesOfWinterspellCpp\Map.cpp(41): warning C4715: 'Map::GetCurrentRoom': not all control paths return a value

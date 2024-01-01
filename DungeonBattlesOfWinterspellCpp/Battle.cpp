@@ -28,7 +28,21 @@ void Battle::CommenceBattle() {
     bool inBattle = true;
     while (inBattle) {
 
+        //analyze whos turn
+        for (std::shared_ptr<ICreature> creature : turnOrder) {
 
+            std::shared_ptr<PlayerCharacter> player = std::dynamic_pointer_cast<PlayerCharacter>(creature);
+            if (player) {
+                std::cout << "it is  " << player->GetName() << " turn" << std::endl;
+                ui.PlayerAttack(player->GetWeapon(), turnOrder);
+
+            }
+            std::shared_ptr<IEnemy> enemy = std::dynamic_pointer_cast<IEnemy>(creature);
+            if (enemy) {
+                std::cout << "it is  " << enemy->GetName() << " turn" << std::endl;
+                //ui.PlayerAttack(enemy.Attack(), turnOrder);
+
+            }
+        }
     }
-
 }

@@ -35,13 +35,21 @@ std::vector<std::shared_ptr<IEnemy>> DungeonGenerator::GenerateEnemies(int roomL
 
     // Create a collection of enemy objects
     std::vector<std::shared_ptr<IEnemy>> enemies;
-    enemies.push_back(std::make_shared<Firespitter>());
-    enemies.push_back(std::make_shared<DungeonDweller>());
-    enemies.push_back(std::make_shared<Goblin>());
-    enemies.push_back(std::make_shared<HauntingSpirit>());
-    enemies.push_back(std::make_shared<Troll>());
-    enemies.push_back(std::make_shared<Skeleton>());
-    enemies.push_back(std::make_shared<UndeadWolf>());
+    std::shared_ptr<IEnemy> fireSpiter = std::make_shared<Firespitter>();
+    std::shared_ptr<IEnemy> dungeonDweller = std::make_shared<DungeonDweller>();
+    std::shared_ptr<IEnemy> goblin = std::make_shared<Goblin>();
+    std::shared_ptr<IEnemy> hauntingSpirit = std::make_shared<HauntingSpirit>();
+    std::shared_ptr<IEnemy> troll = std::make_shared<Troll>();
+    std::shared_ptr<IEnemy> skeleton = std::make_shared<Skeleton>();
+    std::shared_ptr<IEnemy> undeadWolf = std::make_shared<UndeadWolf>();
+
+    enemies.push_back(fireSpiter);
+    enemies.push_back(dungeonDweller);
+    enemies.push_back(goblin);
+    enemies.push_back(hauntingSpirit);
+    enemies.push_back(troll);
+    enemies.push_back(skeleton);
+    enemies.push_back(undeadWolf);
 
     // get random number between the min/max which are decided based upon what the room levels are. Represents how many enemies can spawn per room.
     // maximum / minimum values (inclusive)

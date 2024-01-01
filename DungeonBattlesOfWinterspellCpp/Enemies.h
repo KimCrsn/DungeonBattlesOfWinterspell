@@ -10,7 +10,8 @@ public:
 	std::string GetSkillName() override { return skillName; }
 	std::string GetSkillDescription() override { return skillDescription; }
 	int GetSkillDamage() override { return skillDamage; }
-
+	bool GetIsDead() override { return isDead; }
+	void TakeDamage(int hitPoints);
 
 private:
 	std::string name;
@@ -19,6 +20,7 @@ private:
 	std::string skillName;
 	std::string skillDescription;
 	int skillDamage;
+	bool isDead;
 };
 
 // -------------------------------------------
@@ -34,6 +36,8 @@ public:
 	std::string GetSkillName() override { return skillName; }
 	std::string GetSkillDescription() override { return skillDescription; }
 	int GetSkillDamage() override { return skillDamage; }
+	bool GetIsDead() override { return isDead; }
+	void TakeDamage(int hitPoints);
 
 private:
 	std::string name;
@@ -42,6 +46,7 @@ private:
 	std::string skillName;
 	std::string skillDescription;
 	int skillDamage;
+	bool isDead;
 };
 
 // -------------------------------------------
@@ -57,6 +62,8 @@ public:
 	std::string GetSkillName() override { return skillName; }
 	std::string GetSkillDescription() override { return skillDescription; }
 	int GetSkillDamage() override { return skillDamage; }
+	bool GetIsDead() override { return isDead; }
+	void TakeDamage(int hitPoints);
 
 private:
 	std::string name;
@@ -65,6 +72,7 @@ private:
 	std::string skillName;
 	std::string skillDescription;
 	int skillDamage;
+	bool isDead;
 };
 
 // -------------------------------------------
@@ -80,6 +88,8 @@ public:
 	std::string GetSkillName() override { return skillName; }
 	std::string GetSkillDescription() override { return skillDescription; }
 	int GetSkillDamage() override { return skillDamage; }
+	bool GetIsDead() override { return isDead; }
+	void TakeDamage(int hitPoints);
 
 private:
 	std::string name;
@@ -88,6 +98,7 @@ private:
 	std::string skillName;
 	std::string skillDescription;
 	int skillDamage;
+	bool isDead;
 };
 
 // -------------------------------------------
@@ -103,6 +114,8 @@ public:
 	std::string GetSkillName() override { return skillName; }
 	std::string GetSkillDescription() override { return skillDescription; }
 	int GetSkillDamage() override { return skillDamage; }
+	bool GetIsDead() override { return isDead; }
+	void TakeDamage(int hitPoints);
 
 private:
 	std::string name;
@@ -111,6 +124,7 @@ private:
 	std::string skillName;
 	std::string skillDescription;
 	int skillDamage;
+	bool isDead;
 };
 
 // -------------------------------------------
@@ -126,6 +140,8 @@ public:
 	std::string GetSkillName() override { return skillName; }
 	std::string GetSkillDescription() override { return skillDescription; }
 	int GetSkillDamage() override { return skillDamage; }
+	bool GetIsDead() override { return isDead; }
+	void TakeDamage(int hitPoints);
 
 private:
 	std::string name;
@@ -134,6 +150,7 @@ private:
 	std::string skillName;
 	std::string skillDescription;
 	int skillDamage;
+	bool isDead;
 };
 
 // -------------------------------------------
@@ -149,6 +166,8 @@ public:
 	std::string GetSkillName() override { return skillName; }
 	std::string GetSkillDescription() override { return skillDescription; }
 	int GetSkillDamage() override { return skillDamage; }
+	bool GetIsDead() override { return isDead; }
+	void TakeDamage(int hitPoints);
 
 private:
 	std::string name;
@@ -157,4 +176,5 @@ private:
 	std::string skillName;
 	std::string skillDescription;
 	int skillDamage;
+	bool isDead;
 };
